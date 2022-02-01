@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+body {
+    background-color: burlywood;
+    margin: 4%;
+    font-family: 'Quicksand', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+#top-bar {
+    background-color: cadetblue;
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+#repitition-box, #hicks-box, #alignment-box {
+    background-color: cornsilk;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+} 
+
+#mcdonalds-pic, #ups-pic, #doordash-pic {
+    max-width: 80%;
+    margin-left:auto;
+    margin-right: auto;
+    display: block;
+    padding-bottom: 10px;
+}
+
+#repitition-title, #hicks-title, #alignment-title {
+    background-color: rgb(194, 218, 219);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding: 20px;
+    padding-left: 40px;
+    margin-top: auto;
+}
+
+.box-content {
+    padding-left: 40px;
+    padding-bottom: 30px;
+}
+
+.box-text {
+    padding: 30px;
+}
+
+footer {
+    padding: 2px;
+    padding-left: 2%;
+    background-color: cadetblue;
+    color:cornsilk;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    text-align: center;
+    font-size: smaller;
+}
