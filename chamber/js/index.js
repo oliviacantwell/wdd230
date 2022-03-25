@@ -26,4 +26,18 @@ bottomDate.textContent =  "©" + year + " Frisco Chamber";
 let modified = document.querySelector(".modified");
 modified.textContent = "Last modified: " + lastModified;
 
+// Let message appear only on Tuesdays and Wednesdays
+const msgBox = document.querySelector('.msg-box');
+if (weekDay == 2 || weekDay == 3) {
+    
+    msgBox.style.display = 'block';
+}
+else {
+
+    msgBox.style.display = 'none';
+}
+
+// Wind Chill
+const wChill = Math.round((35.74 + (0.6215 * tempF))-(35.75 * Math.pow(wSpeed,0.16)) + 
+      (0.4275*tempF*Math.pow(wSpeed,0.16)));
 
