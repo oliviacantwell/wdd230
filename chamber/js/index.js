@@ -38,6 +38,41 @@ else {
 }
 
 // Wind Chill
-const wChill = Math.round((35.74 + (0.6215 * tempF))-(35.75 * Math.pow(wSpeed,0.16)) + 
-      (0.4275*tempF*Math.pow(wSpeed,0.16)));
+fetch('https://api.openweathermap.org/data/2.5/weather?lat=33&lon=-96&units=imperial&appid=758fa07509c554ccd9c538beeb26a583')
+.then(response => response.json())
+.then(data => {
+    
+    const temp = Math.round(data.main.temp);
+    const wSpeed = Math.round(data.wind.speed);
+    const wDescript = data.weather[0].description;
+    const wChill = Math.round((35.74 + (0.6215 * temp))-(35.75 * Math.pow(wSpeed,0.16)) + 
+        (0.4275*temp*Math.pow(wSpeed,0.16)));
+    console.log(wChill, temp, wSpeed, wDescript);
+    
+    let displayTemp = document.querySelector('.temp');
+    displayTemp.textContent = temp + '\xB0F';
+    
+    let displayDesc = document.querySelector('.weather-desc');
+    displayDesc.textContent = wDescript.toUpperCase();
+    
+    let displayWSpeed = document.querySelector('.wind-speed');
+    displayWSpeed.textContent = "Wind Speed: " + wSpeed;
+    
+    const icon = data.weather[0].icon;
+
+    (async () => {
+        let weatherIcon = document.querySelector('.weather-icon');
+        const imageUrl = 'https://openweathermap.org/img/wn/' + icon + '@2x.png';
+        const response = await fetch(imageUrl);
+        const imageBlob = await response.blob();
+        const reader = new FileReader();
+        reader.readAsDataURL(imageBlob);
+        reader.onloadend = () => {
+          const base64data = reader.result;
+          weatherIcon.src = base64data;
+        };
+      })();
+});
+
+
 

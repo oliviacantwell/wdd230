@@ -10,10 +10,10 @@
     <link rel="stylesheet" href="css/large.css">
 </head>
 <body class="main-body">
-    <div class="top" >
+    <div class="top">
         <header>
             <div class='logo-name'>
-                <img class = 'logo' src="images/friscoLogo.png">
+                <img class = 'logo' src="images/friscoLogo-min.webp">
                 <div class ='site-name'>
                     <h1>Frisco Texas</h1>
                     <h2>Chamber of Commerce</h2>
@@ -22,7 +22,7 @@
         </header>   
         <nav> 
             <ul class="navigation">
-                <li><a class="hamburger" href="#"><img class="ham-img" src="images/hamburger-icon-small.png"></a></li>
+                <li><a class="hamburger" href="#"><img class="ham-img" src="images/hamburger-icon-small-min.png"></a></li>
                 <li><a href='index.html'>Home</a></li>
                 <li><a href='discover.html'>Discover</a></li>
                 <li><a href='directory.html'>Directory</a></li>
@@ -49,7 +49,15 @@
             <p>Event</p>
         </div>
         <div class="weather-box">
-            <p>Weather</p>
+            <h3 class="weather-title">Weather</h3>
+            <div class ="weather-main">
+                <img class="weather-icon" alt="Weather Icon">
+                <h4 class = "temp"></h4>
+            </div>
+            <p class = "weather-desc"></p>
+            <hr>
+            <p class = "wind-speed"></p>
+            <p class ="wind-chill"></p>
         </div>
         <div class ="news-box">
             <p>News Release</p>
@@ -66,7 +74,7 @@
 
     <footer>
         <div class="bottom-box1">
-            <img class = 'bottom-logo' src="images/friscoLogo.png">
+            <img class = 'bottom-logo' src="images/friscoLogo-min.webp">
             <div class="footer-address">
                 <h4>Frisco Chamber of Commerce</h4>
                 <p>6843 Main St, Frisco, TX 75034</p>
@@ -84,5 +92,6 @@
             | WDD 230 Project | <span class='modified'></span></p>
     </div>
     <script src="js/index.js"></script>
+    <script src ='js/windchill.js'></script>
 </body>
 </html>

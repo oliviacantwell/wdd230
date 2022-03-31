@@ -180,3 +180,33 @@ footer {
   color: #F3F1E2;
   padding: 10px;
 }
+
+.weather-box {
+  background-color: lightgray;
+}
+.weather-title {
+  text-align: center;
+}
+
+.weather-main{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.temp {
+  grid-column-start: 2;
+  font-size: 175%;
+  color: #A30B37;
+}
+
+.weather-desc {
+  text-align: center;
+}
+
+.heroes div {
+  border-radius: 25px;
+}
+
+
+
+
