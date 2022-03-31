@@ -2,7 +2,7 @@
 
 .heroes {
     display: grid;
-    grid: 1fr 1fr 1fr 1fr
+    grid: 1fr 1fr 1fr 1fr;
 }
 
 .hero-box {
@@ -13,7 +13,7 @@
     grid-column: 1/ span 3;
     grid-row: 4/span 1;
     display: grid;
-    grid: 1fr 1fr
+    grid: 1fr 1fr;
 }
 
 .spotlight-one {
