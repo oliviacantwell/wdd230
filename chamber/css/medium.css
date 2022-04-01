@@ -1,4 +1,4 @@
-@media only screen and (min-width: 32.5em) {
+@media only screen and (min-width: 800px) {
 
 .heroes {
     display: grid;
@@ -62,4 +62,22 @@ footer {
 .bottom-box1 {
     display: flex;
   }
+.discover-image {
+    max-width: 30%;
+    
+    height: auto;
+    padding: 30px;
 }
+
+.disc-items {
+    display: flex;
+    padding: 30px;
+}
+
+.disc-text {
+    padding-top: 10px;
+}
+}
+
+
+  
