@@ -69,4 +69,9 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+
+  .disc-text {
+    padding-top: 50px;
+  }
+
 } 
