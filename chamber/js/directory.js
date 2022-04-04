@@ -25,6 +25,7 @@ fetch('https://raw.githubusercontent.com/oliviacantwell/wdd230/main/chamber/data
         website.innerHTML = dict.website;
         // Add class names
         contact.classList.add('card');
+        image.classList.add('logo');
         // contact.classList.add('directory-li');
         // Append children to parents
         (async () => {
@@ -38,17 +39,25 @@ fetch('https://raw.githubusercontent.com/oliviacantwell/wdd230/main/chamber/data
               image.src = base64data;
             };
           })();
-        c.appendChild(contact);
         contact.appendChild(image);
         contact.appendChild(name);
         contact.appendChild(address);
         contact.appendChild(phone);
         contact.appendChild(website);
+        c.appendChild(contact);
     };
 
 
 });
 
-// Change styles according to view
-c.classList.remove('card');
-c.classList.add('directory-li');
+// Change styles according to button view selection
+document.querySelector('.card-btn').onclick = () => {
+    c.classlist.add('card');
+    c.classlist.remove('directory-li');
+}
+document.querySelector('.list-btn').onclick = () => {
+    c.classList.remove('card');
+    console.log(c.classList);
+    c.classList.add('directory-li');
+    console.log(c.classList);
+}

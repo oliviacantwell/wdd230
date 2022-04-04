@@ -265,13 +265,13 @@ footer {
 #contacts {
   display: grid;
   grid-template-columns: 1fr;
-  padding: 2px 16px;
+  /* padding: 2px 16px; */
 }
 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   border-radius: 5px 5px 0 0;
-  margin: 1em 1em 1em;
+  /* margin: 1em 1em 1em; */
   text-align: center;
 }
 .card:hover {
@@ -290,4 +290,12 @@ footer {
 }
 .bus-list-box div:nth-child(odd) {
   background-color: #efefef;
+}
+
+.card-btn img, .list-btn img {
+  max-width: 20px;
+}
+
+.card-btn {
+  /* margin-left: 50%; */
 }
