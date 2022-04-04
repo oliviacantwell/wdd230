@@ -1,0 +1,77 @@
+{
+    "businesses": [
+        {
+            "name": "Crest Auto Group",
+            "address": "6100 Tx-121, Frisco TX 75034",
+            "phone": "972-744-5672",
+            "website": "http://crestcars.com/",
+            "image": "crest-icon.png"
+        },{
+            "name": "Caliber Collision",
+            "address": "4759 Windhaven Pkwy, Lewisvill TX 75056",
+            "phone": "469-771-7283",
+            "website": "http://www.calibercollision.com/",
+            "image": "caliber-icon.png"
+        },{
+            "name": "Town & Country Roofing, Inc",
+            "address": "4900 Preston Rd #101",
+            "phone": "972-377-8188",
+            "website": "http://www.townandcountryroofingdfw.com/",
+            "image": "townandcountry.png"
+        },{
+            "name": "A-1 Locksmith",
+            "address": "3031 Preston Rd, Frisco TX 75034",
+            "phone": "972-690-8464",
+            "website": "http://www.a-1locksmith.com/",
+            "image": "A1locksmith.png"
+        },{
+            "name": "Hampton Inn & Suites",
+            "address": "6070 sports Village Rd",
+            "phone": "972-668-4200",
+            "website": "http://www.dallasfrisconorthfieldhouseusasuites.hamptoninn.com/",
+            "image": "hampton-icon.png"
+        },{
+            "name": "Market Street",
+            "address": "11999 Dallas Pkwy, Frisco TX 75033",
+            "phone": "214-980-3939",
+            "website": "http://marketstreetdfw.com/",
+            "image": "market.icon"
+        },{
+            "name": "Jersey Mike's",
+            "address": "5110 Eldorado Pkwy #450, Frisco TX 75093",
+            "phone": "383-383-3833",
+            "website": "https://www.facebook.com/jerseymikesfrisco15037",
+            "image": "jersey-icon.png"
+        },{
+            "name": "Raising Cane's",
+            "address": "6311 Custer Rd, Frisco TX 75098",
+            "phone": "123-123-1234",
+            "website": "http://www.raisingcanes.com/",
+            "image": "canes-icon.png"
+        },{
+            "name": "Medical City Frisco",
+            "address": "5500 Frisco Square Blvd, Frisco TX 75033",
+            "phone": "999-999-9999",
+            "website": "http://www.medicalcityfrisco.com/",
+            "image": "medical-icon.png"
+        },{
+            "name": "Texas Health",
+            "address": "6200 W Parker Rd, Plano TX 75999",
+            "phone": "987-987-9876",
+            "website": "http://www.texashealth.org/",
+            "image": "texashealth-icon.png"
+        },{
+            "name": "Eagle Gun Range, Inc.",
+            "address": "1440 Midway Rd, Farmer Branch TX 75839",
+            "phone": "801-801-8011",
+            "website": "http://www.eaglegunrangetx.com/",
+            "image": "gun-icon.png"
+        },{
+            "name": "SPiN DJ Entertainment",
+            "address": "123 Eyes Rd, Frisco TX 75098",
+            "phone": "892-102-9999",
+            "website": "http://www.spinmyevent.com/",
+            "image": "music-icon.png"
+        }
+    ]
+}
