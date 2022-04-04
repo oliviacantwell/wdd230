@@ -229,11 +229,34 @@ footer {
   padding: 30px;
 }
 
+/* Thank you */
 
+.thank-you {
+  text-align: center;
+}
 
+/* Join page */
 
-
-
-
-
-
+.join-title {
+  text-align: center;
+}
+#join-form input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+#join-submit {
+  background-color: #5899e2;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  cursor: pointer;
+}
+#join-form textarea {
+  width: 100%;
+  min-height: 90px;
+}

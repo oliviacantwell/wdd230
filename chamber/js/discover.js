@@ -1,6 +1,6 @@
 // Lazy loading
 const images = document.querySelectorAll('[data-src]');
-const options = { threshold: [.5] };
+const options = { threshold: [1] };
 function preloadImage(img) { 
     const source = img.getAttribute('data-src'); 
     img.src = source; 

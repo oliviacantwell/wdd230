@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Frisco! Chamber of Commerce -- Frisco, Texas</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+    <div class="top">
+        <header>
+            <div class='logo-name'>
+                <img class = 'logo' src="images/friscoLogo-min.webp" alt="Frisco Chamber Logo">
+                <div class ='site-name'>
+                    <h1>Frisco Texas</h1>
+                    <h2>Chamber of Commerce</h2>
+                </div>
+            </div>
+        </header>   
+        <nav> 
+            <ul class="navigation">
+                <li><a class="hamburger" href="#"><img class="ham-img" src="images/hamburger-icon-small-min.png" alt="hamburger icon"></a></li>
+                <li><a href='index.html'>Home</a></li>
+                <li><a href='discover.html'>Discover</a></li>
+                <li><a href='directory.html'>Directory</a></li>
+                <li><a href='join.html'>Join</a></li>
+                <li><a href='contact.html'>Contact</a></li>
+                <li><div class ='dropdown'>
+                    <div class="dropdown-content">
+                        <a href="target-audience.html">Target Audience</a>
+                        <a href="typography.html">Typography</a>
+                        <a href="color-scheme.html">Color Scheme</a>
+                    </div>
+                </div></li>
+            </ul>
+        </nav>
+    </div>
+
+    <h1 class = 'join-title'>Join Us!</h1>
+    <p class = 'join-desc'>Please fill out the form below if you would be interested in joining our chamber of commerce committee or to participate in our organization</p>
+
+    <form id="join-form">
+        <label for="fname">First name</label>
+        <input type="text" id="fname" name="fname" required>
+        
+        <label for="lname">Last name</label>
+        <input type="text" id="lname" name="lname" required>
+
+        <label for = 'bus-name'>Name of business</label>
+        <input type="text" id="bus-name" name = 'bus-name' title="The name of the business you are representing">
+        
+        <label for="title" >Position in Organization</label>
+        <input type = 'text' id="title" name="title" 
+            title = 'Name the position you hold in an organization' pattern="[a-zA-Z-\s]{7,}">
+        
+        <label for="email">Email</label>
+        <input type = 'email' id="email" name="email" placeholder = 'myemail@email.com'
+            required>
+        
+        <label for="cell">Phone number</label>
+        <input type="tel" id="cell" name="cell" required>
+        
+        <label for="membership">Membership</label>
+        <br>
+        <select id="membership" name="membership" required>
+            <option value="bronze">Bronze</option>
+            <option value="silver">Silver</option>
+            <option value="gold">Gold</option>
+            <option value="np">Non-profit</option>
+        </select>
+        <br>
+        <br>
+
+        <label for="desc">Business Description</label>
+        <br>
+        <textarea id="desc" name="desc"></textarea>
+        <a href="https://oliviacantwell.github.io/wdd230/chamber/thankyou.html"><input type="submit" value="Submit" id="join-submit"></a>
+        
+    </form>
+    <div id="membership-info-box">
+        <h4>Membership options</h4>
+        <p>NP Membership</p>
+        <ul>
+            <li>For non profit organizations and there is no fee</li>
+        </ul>
+        <p>Bronze Membership</p>
+        <ul>
+            <li>15% discount on events</li>
+            <li>10% discount on advertising</li>
+            <li>Fee of $50/month</li>
+        </ul>
+        <p>Silver Membership</p>
+        <ul>
+            <li>25% discount on events</li>
+            <li>15% discount on advertising</li>
+            <li>Free participation in the trade fair</li>
+            <li>Fee of $100/month</li>
+        </ul>
+        <p>Gold Membership</p>
+        <ul>
+            <li>50% discount on events</li>
+            <li>50% discount on advertising</li>
+            <li>Free participation in the trade fair</li>
+            <li>5 free featured ads per year</li>
+            <li>1 free training per quarter</li>
+            <li>Fee of $250/month</li>
+        </ul>
+    </div>
+    <footer>
+        <div class="bottom-box1">
+            <img class = 'bottom-logo' src="images/friscoLogo-min.webp" alt="Frisco Chamber Logo">
+            <div class="footer-address">
+                <h4>Frisco Chamber of Commerce</h4>
+                <p>6843 Main St, Frisco, TX 75034</p>
+            </div>
+        </div>  
+        <div class="footer-contact">
+            <p>info@friscochamber.org</p>
+            <p>(972) 335-9522</p>
+            <p><a href="https://g.page/FriscoChamber?share">Location Map</a></p>
+        </div>
+    </footer>
+    <hr>
+    <div class="bottom-info">    
+        <p><span class="bottom-change"></span> | Olivia Cantwell 
+                | WDD 230 Project | <span class='modified'></span></p>
+    </div>
+    <script src="js/index.js"></script>
+    <script src ='js/windchill.js'></script>
+    <script src = 'js/discover.js'></script>
+</body>
+</html>
