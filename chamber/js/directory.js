@@ -13,7 +13,7 @@ fetch('https://raw.githubusercontent.com/oliviacantwell/wdd230/main/chamber/data
         const name = document.createElement('p'); 
         const address = document.createElement('p');
         const phone = document.createElement('p');
-        const website = document.createElement('p');
+        const website = document.createElement('a');
         // console.log(list[item].name);
         // Add text content
         // image.src = '../images/'+ dict.image;
@@ -22,9 +22,10 @@ fetch('https://raw.githubusercontent.com/oliviacantwell/wdd230/main/chamber/data
         phone.innerHTML = dict.phone;
         address.innerHTML = dict.address;
         phone.innerHTML = dict.phone;
-        website.innerHTML = dict.website;
+        website.innerHTML = 'Website'
+        website.href = dict.website;
         // Add class names
-        contact.classList.add('card');
+        contact.classList.add('directory-li');
         image.classList.add('logo');
         // contact.classList.add('directory-li');
         // Append children to parents
@@ -52,12 +53,22 @@ fetch('https://raw.githubusercontent.com/oliviacantwell/wdd230/main/chamber/data
 
 // Change styles according to button view selection
 document.querySelector('.card-btn').onclick = () => {
-    c.classlist.add('card');
-    c.classlist.remove('directory-li');
-}
+    const cards = document.querySelectorAll('.directory-li')
+    for (let cs of cards){
+        cs.classList.add('card');
+        cs.classList.remove('directory-li');
+    }
+    
+    
+};
 document.querySelector('.list-btn').onclick = () => {
-    c.classList.remove('card');
-    console.log(c.classList);
-    c.classList.add('directory-li');
-    console.log(c.classList);
-}
+    const lists = document.querySelectorAll('.card');
+    for (let ls of lists) {
+        ls.classList.add('directory-li');
+        ls.classList.remove('card');
+
+    }
+    
+    
+   
+};

@@ -233,6 +233,7 @@ footer {
 
 .thank-you {
   text-align: center;
+  margin: 20%;
 }
 
 /* Join page */
@@ -270,32 +271,52 @@ footer {
 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  border-radius: 5px 5px 0 0;
+  /* border-radius: 5px 5px 0 0; */
   /* margin: 1em 1em 1em; */
+  padding: 1em;
+  margin: 1em;
   text-align: center;
 }
-.card:hover {
+/* .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-.contacts .logo {
+} */
+.contact .logo {
   max-width: 100%;
-  border-radius: 5px 5px 0 0;
+  /* border-radius: 5px 5px 0 0; */
 }
 .directory-li {
-  display: flex;
-  justify-content: space-around;
+  /* display: flex;
+  justify-content: space-around; */
+  display: block;
+  padding-left: 8%;
+  
 }
 .directory-li img {
   display: none;
 }
-.bus-list-box div:nth-child(odd) {
-  background-color: #efefef;
+.directory-li:nth-child(odd) {
+  background-color: rgb(203, 207, 210);
 }
 
 .card-btn img, .list-btn img {
   max-width: 20px;
+  
+}
+.card-btn, .directory-li {
+  margin-bottom: 10px;
 }
 
 .card-btn {
-  /* margin-left: 50%; */
+  margin-left: 5%;
+  
+}
+
+.dir-title {
+  text-align: center;
+  
+}
+
+
+.directory-li a{
+  padding-top: 8%;
 }

@@ -74,5 +74,9 @@ fetch('https://api.openweathermap.org/data/2.5/weather?lat=33&lon=-96&units=impe
       })();
 });
 
+function thanksPage() {
+    window.location.href="https://oliviacantwell.github.io/wdd230/chamber/thankyou.html";
+}
+
 
 

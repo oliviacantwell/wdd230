@@ -80,6 +80,34 @@ footer {
 #join-form {
     padding: 20px;
   }
+
+
+
+#contacts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.directory-li {
+    grid-column: 1/span 2;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
   
 
