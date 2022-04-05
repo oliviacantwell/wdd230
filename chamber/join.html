@@ -42,7 +42,7 @@
     <h1 class = 'join-title'>Join Us!</h1>
     <p class = 'join-desc'>Please fill out the form below if you would be interested in joining our chamber of commerce committee or to participate in our organization</p>
 
-    <form id="join-form">
+    <form id="join-form" action="thankyou.html" method ='get'>
         <label for="fname">First name</label>
         <input type="text" id="fname" name="fname" required>
         
@@ -65,7 +65,8 @@
         
         <label for="membership">Membership</label>
         <br>
-        <select id="membership" name="membership">
+        <select id="membership" name="membership" require>
+            <option value = 'placeholder' disabled selected>Select type</option>
             <option value="bronze">Bronze</option>
             <option value="silver">Silver</option>
             <option value="gold">Gold</option>

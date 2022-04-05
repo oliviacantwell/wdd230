@@ -56,7 +56,7 @@ fetch('https://api.openweathermap.org/data/2.5/weather?lat=33&lon=-96&units=impe
     displayDesc.textContent = wDescript.toUpperCase();
     
     let displayWSpeed = document.querySelector('.wind-speed');
-    displayWSpeed.textContent = "Wind Speed: " + wSpeed;
+    displayWSpeed.textContent = "Wind Speed: " + wSpeed + " mph";
     
     const icon = data.weather[0].icon;
 

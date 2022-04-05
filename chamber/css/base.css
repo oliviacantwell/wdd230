@@ -182,11 +182,18 @@ footer {
 }
 
 .weather-box {
-  background-color: lightgray;
+  background-color: #A30B37; 
+  color: white;
+  font-family: Helvetica, san-serif;
+  padding: 25px;
+  background: radial-gradient(circle at center,rgb(246, 127, 127), #A30B37 );
 }
 .weather-title {
   text-align: center;
+  font-size: 150%;
+  
 }
+
 
 .weather-main{
   display: grid;
@@ -195,8 +202,8 @@ footer {
 
 .temp {
   grid-column-start: 2;
-  font-size: 175%;
-  color: #A30B37;
+  font-size: 190%;
+  color: white;
 }
 
 .weather-desc {
@@ -204,8 +211,10 @@ footer {
 }
 
 .heroes div {
-  border-radius: 25px;
+  border-radius: 6px;
 }
+
+
 
 
 .disc-header {

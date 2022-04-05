@@ -10,7 +10,7 @@ fetch('https://api.openweathermap.org/data/2.5/weather?lat=33&lon=-96&units=impe
     console.log(wChill, temp, wSpeed, wDescript);
     let displayChill = document.querySelector('.wind-chill');
     if (temp <= 50 && wSpeed > 3)
-    { displayChill.textContent = "Wind Chill: " + wChill; }
+    { displayChill.textContent = "Wind Chill: " + wChill + "mph"; }
     else
     { displayChill.textContent = "Wind Chill: N/A";  }
 });
