@@ -24,9 +24,20 @@
     grid-column: 1/span 1;
   }
 
+  .event-box h3 {
+    padding-top: 0px;
+  }
+
   .hero-box {
     grid-row: 1/span 2;
     grid-column: 2/span 2;
+  }
+
+  .hero-box img {
+    min-width: 700px;
+    min-height: 610px;
+    border-radius: 5px;
+    display: block;
   }
 
   .weather-box {
@@ -37,6 +48,22 @@
   .join-box {
     grid-row: 3/span 1;
     grid-column: 1/span 1;
+    color: white;
+    background: radial-gradient(circle at center,rgb(246, 127, 127), #a30b36a5 );
+    text-align: center;
+  }
+
+  .join-box button {
+    margin-left: 5%;
+    height: 30%;
+    width: 85%;
+    font-size: 90%;
+    background-color: #FFD485;
+    border-radius: 5px;
+  }
+  
+  .join-box button:hover {
+    cursor: pointer;
   }
 
   .news-box {
@@ -47,7 +74,21 @@
   .spotlight-boxes {
     grid-row: 1/ span 3;
     grid-column: 4/span 1;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .spotlight-boxes div img {
+    min-height: 70px;
+  }
+
+  .spotlight-boxes div p {
+    font-size: 20px;
+  }
+
+  .spotlight-one, .spotlight-two {
+    margin-bottom: 10px;
   }
 
   .join-box {
@@ -60,7 +101,8 @@
   .spotlight-three {
     display: block;
     border: solid #006992;
-    padding: 30px;
+    padding: 10px;
+    background: radial-gradient(circle at center,#68c7ec, #006992);
   }
   .bottom-logo, .footer-address, .footer-contact {
     display: block;
