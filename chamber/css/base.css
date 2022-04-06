@@ -170,7 +170,6 @@ header {
 .spotlight-boxes{
   background: radial-gradient(circle at center,rgb(246, 127, 127), #a30b36a5 );
   padding: 20px;
-  gap: auto;
 }
 
 .spotlight-boxes div p {
