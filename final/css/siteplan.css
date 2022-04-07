@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Lora:wght@600&display=swap');
+
+body {
+    margin: 30px;
+}
+
+p, h3 {
+    text-align: center;
+}
+header {
+    display: flex;
+}
+header img {
+    max-height: 80px;
+    padding: 20px;
+}
+
+#site-plan {
+    text-align: center;
+}
+
+#site-plan img {
+    max-width: 90%;
+}
+
+#color-scheme {
+    text-align: center;
+}
+
+#color-scheme table, tr, td{
+    border: 2px solid black;
+    background-color: beige;
+    width:auto;
+    margin: auto;
+}
+
+#primary {
+    color: white;
+    background-color: #0a0b0b;
+}
+
+#secondary {
+    background-color: #f5f5f5;
+}
+
+#acc1 {
+    background-color: #367619;
+}
+
+#acc2 {
+    background-color: #969696;
+}
+
+#target-audience h2{
+    text-align: center;
+}
+
+#typography h2 {
+    text-align: center;
+}
+
+#lora {
+    font-family: Lora, sans-serif;
+}
+
+#bitter {
+    font-family: Bitter, sans-serif;
+}
