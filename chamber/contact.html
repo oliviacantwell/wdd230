@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Frisco! Chamber of Commerce -- Frisco, Texas</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+    <div class="top">
+        <header>
+            <div class='logo-name'>
+                <img class = 'logo' src="images/friscoLogo-min.webp" alt="Frisco Chamber Logo">
+                <div class ='site-name'>
+                    <h1>Frisco Texas</h1>
+                    <h2>Chamber of Commerce</h2>
+                </div>
+            </div>
+        </header>   
+        <nav> 
+            <ul class="navigation">
+                <li><a class="hamburger" href="#"><img class="ham-img" src="images/hamburger-icon-small-min.png" alt="hamburger icon"></a></li>
+                <li><a href='index.html'>Home</a></li>
+                <li><a href='discover.html'>Discover</a></li>
+                <li><a href='directory.html'>Directory</a></li>
+                <li><a href='join.html'>Join</a></li>
+                <li><a href='contact.html'>Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <h1 class = 'contact-top'>Contacts</h1>
+    <h3 class = 'contact-top'>Meet the board of directors!</h3>
+    <div class="directors-photos">
+        <div><img src="images/ugly1.jpg" alt="an ugly person">
+        <p>Head director: Buggy Isa</p></div>
+        <div><img src="images/ugly2.jpg" alt = "another ugly person">
+        <p>Media Representative: Lacy Bottoms</p></div>
+        <div><img src="images/ugly3.jpg" alt = 'yet another ugly person'>
+        <p>Secretary: Harry B. Hind</p></div>
+        <div><img src="images/ugly4.jpg" alt="another really ugly person">
+        <p>Treasurer: Noah Nose</p></div>
+        <div><img src="images/ugly5.jpg" alt="one more ugly person">
+        <p>Small Business Specialist: Anita Dentist</p></div>
+        <div><img src="images/ugly6.jpg" alt="an even uglier person">
+        <p>Morale Ambassador: Po K. Hed</p></div>
+        
+    </div>
+
+    <h3 class="contact-middle">Contact us below</h3>
+    <form id="join-form" class="contact-form" action="thankyou.html" method ='get'>
+        <label for="fname">First name</label>
+        <input type="text" id="fname" name="fname" required>
+        
+        <label for="lname">Last name</label>
+        <input type="text" id="lname" name="lname" required>
+
+        <label for = "bus-name">Name of business</label>
+        <input type="text" id="bus-name" name = "bus-name" >
+        
+        <label for="email">Email</label>
+        <input type = 'email' id="email" name="email" placeholder = 'myemail@email.com'
+            required>
+        
+        <label for="cell">Phone number</label>
+        <input type="tel" id="cell" name="cell">
+
+        <label for="desc">Message</label>
+        <br>
+        <textarea id="desc" name="desc"></textarea>
+        <input type="submit" value="Submit" id="join-submit" onclick="thanksPage()">
+        
+    </form>
+    <footer>
+        <div class="bottom-box1">
+            <img class = 'bottom-logo' src="images/friscoLogo-min.webp" alt="Frisco Chamber Logo">
+            <div class="footer-address">
+                <h4>Frisco Chamber of Commerce</h4>
+                <p>6843 Main St, Frisco, TX 75034</p>
+            </div>
+        </div>  
+        <div class="footer-contact">
+            <p>info@friscochamber.org</p>
+            <p>(972) 335-9522</p>
+            <p><a href="https://g.page/FriscoChamber?share">Location Map</a></p>
+        </div>
+    </footer>
+    <hr>
+    <div class="bottom-info">    
+        <p><span class="bottom-change"></span> | Olivia Cantwell 
+            | WDD 230 Project | <span class='modified'></span></p>
+    </div>
+    <script src="js/index.js"></script>
+    <script src ='js/windchill.js'></script>
+    <script src = 'js/discover.js'></script>
+</body>
+</html>

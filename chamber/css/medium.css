@@ -2,7 +2,7 @@
 
 .heroes {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    /* grid: 1fr 1fr 1fr 1fr; */
 }
 
 .hero-box {
@@ -25,7 +25,7 @@
     grid-column: 1/ span 3;
     grid-row: 4/span 1;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    /* grid: 1fr 1fr; */
    
 }
 
@@ -115,8 +115,14 @@ footer {
     
 }
 
+.directors-photos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
-
+.directors-photos img {
+    height: 230px;
+}
 
 
 

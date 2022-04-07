@@ -16,7 +16,7 @@
 
   .heroes {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    /* grid: 1fr 1fr 1fr 1fr 1fr; */
   }
 
   .event-box {
@@ -80,7 +80,7 @@
   }
 
   .spotlight-boxes div img {
-    min-height: 7%;
+    min-height: 9%;
   }
 
   .spotlight-boxes div p {
@@ -127,6 +127,11 @@
     grid-template-columns: 1fr 2fr 1fr 1fr;
     
 }
+
+  .directors-photos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 
 
 } 

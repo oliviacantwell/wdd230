@@ -413,3 +413,31 @@ footer {
 .directory-li a{
   padding-top: 8%;
 }
+
+.contact-top {
+  text-align: center;
+}
+
+.directors-photos {
+  margin-bottom: 60px;
+}
+
+.directors-photos p {
+  text-align: center;
+}
+
+.directors-photos img{
+  display: block;
+  width: 50%;
+  margin: auto;
+  margin-top: 80px;
+}
+
+.contact-middle {
+  text-align: center;
+  padding: 15px;
+}
+
+.contact-form {
+  padding-bottom: 50px;
+}
